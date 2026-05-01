@@ -17,17 +17,26 @@
         },
         {
             "_comment": "Config for Image-Gen.py",
-            "width": 960,
-            "height": 576,
+            "image_path": "ROOMIMAGES/%ROOM%.png",
+            "maintenance_path": "IMAGEGEN/graustufenbild_demo.png",
+            "image_size": [960, 576],
             "background_color": 255,
-            "TBZ_Logo_path": "../SNIPPETS/TBZ-sb.png",
-            "Standard_font": "../IMAGEGEN/Arial.TTF",
-            "Config_rect_color": 255,
-            "Config_rect_height": 100,
-            "Config_rect_margin": 140,
-            "Config_rect_spacing": 25,
-            "Custom_Text": "~UwU",
-            "MaintenanceMode": false
+            "tbz_logo_path": "SNIPPETS/TBZ-black-white.png",
+            "logo_size": [207, 87],
+            "standard_font": "IMAGEGEN/Arial.TTF",
+            "lesson_rect_color": 255,
+            "lesson_rect_height": 100,
+            "upper_margin": 120,
+            "bottom_margin": 35,
+            "outside_margin": 20,
+            "lesson_rect_spacing": [25, 15, 10],
+            "lesson_rect_outline_color": 1,
+            "lesson_rect_outline_width": 5,
+            "lesson_text_padding": 20,
+            "double_lesson_multiplier": 1.75,
+            "possible_double_lesson_times": [195, 210, 150],
+            "bottom_text": "~UwU",
+            "inMaintenanceMode": true
         }
     ]
 }
